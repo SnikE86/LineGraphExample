@@ -22,7 +22,7 @@ var zoomedChart = $("#container").dxChart({
     }
 }).dxChart("instance");
 
-zoomedChart.zoomArgument(300, 500);
+//zoomedChart.zoomArgument(300, 500);
 
 function getMyData() {
     return [
@@ -33,6 +33,7 @@ function getMyData() {
             , y3: 32
         }
 
+
         
         , {
             arg: 20
@@ -40,6 +41,7 @@ function getMyData() {
             , y2: 30
             , y3: 12
         }
+
 
         
         , {
@@ -49,6 +51,7 @@ function getMyData() {
             , y3: 30
         }
 
+
         
         , {
             arg: 50
@@ -56,6 +59,7 @@ function getMyData() {
             , y2: 50
             , y3: 19
         }
+
 
         
         , {
@@ -65,6 +69,7 @@ function getMyData() {
             , y3: 15
         }
 
+
         
         , {
             arg: 75
@@ -72,6 +77,7 @@ function getMyData() {
             , y2: 10
             , y3: 15
         }
+
 
         
         , {
@@ -81,6 +87,7 @@ function getMyData() {
             , y3: 13
         }
 
+
         
         , {
             arg: 90
@@ -88,6 +95,7 @@ function getMyData() {
             , y2: 50
             , y3: 14
         }
+
 
         
         , {
@@ -97,6 +105,7 @@ function getMyData() {
             , y3: 90
         }
 
+
         
         , {
             arg: 105
@@ -104,6 +113,7 @@ function getMyData() {
             , y2: 175
             , y3: 120
         }
+
 
         
         , {
@@ -113,6 +123,7 @@ function getMyData() {
             , y3: 32
         }
 
+
         
         , {
             arg: 120
@@ -120,6 +131,7 @@ function getMyData() {
             , y2: 30
             , y3: 12
         }
+
 
         
         , {
@@ -129,6 +141,7 @@ function getMyData() {
             , y3: 30
         }
 
+
         
         , {
             arg: 140
@@ -136,6 +149,7 @@ function getMyData() {
             , y2: 10
             , y3: 32
         }
+
 
         
         , {
@@ -145,6 +159,7 @@ function getMyData() {
             , y3: 12
         }
 
+
         
         , {
             arg: 160
@@ -152,6 +167,7 @@ function getMyData() {
             , y2: 20
             , y3: 30
         }
+
 
         
         , {
@@ -161,6 +177,7 @@ function getMyData() {
             , y3: 19
         }
 
+
         
         , {
             arg: 180
@@ -168,6 +185,7 @@ function getMyData() {
             , y2: 10
             , y3: 15
         }
+
 
         
         , {
@@ -177,6 +195,7 @@ function getMyData() {
             , y3: 15
         }
 
+
         
         , {
             arg: 190
@@ -184,6 +203,7 @@ function getMyData() {
             , y2: 100
             , y3: 13
         }
+
 
         
         , {
@@ -193,6 +213,7 @@ function getMyData() {
             , y3: 14
         }
 
+
         
         , {
             arg: 210
@@ -200,6 +221,7 @@ function getMyData() {
             , y2: 90
             , y3: 90
         }
+
 
         
         , {
@@ -209,6 +231,7 @@ function getMyData() {
             , y3: 120
         }
 
+
         
         , {
             arg: 230
@@ -216,6 +239,7 @@ function getMyData() {
             , y2: 10
             , y3: 32
         }
+
 
         
         , {
@@ -225,6 +249,7 @@ function getMyData() {
             , y3: 12
         }
 
+
         
         , {
             arg: 255
@@ -232,6 +257,7 @@ function getMyData() {
             , y2: 20
             , y3: 30
         }
+
 
         
         , {
@@ -241,6 +267,7 @@ function getMyData() {
             , y3: 32
         }
 
+
         
         , {
             arg: 280
@@ -248,6 +275,7 @@ function getMyData() {
             , y2: 30
             , y3: 12
         }
+
 
         
         , {
@@ -257,6 +285,7 @@ function getMyData() {
             , y3: 30
         }
 
+
         
         , {
             arg: 295
@@ -264,6 +293,7 @@ function getMyData() {
             , y2: 50
             , y3: 19
         }
+
 
         
         , {
@@ -273,6 +303,7 @@ function getMyData() {
             , y3: 15
         }
 
+
         
         , {
             arg: 310
@@ -280,6 +311,7 @@ function getMyData() {
             , y2: 10
             , y3: 15
         }
+
 
         
         , {
@@ -289,6 +321,7 @@ function getMyData() {
             , y3: 13
         }
 
+
         
         , {
             arg: 330
@@ -296,6 +329,7 @@ function getMyData() {
             , y2: 110
             , y3: 14
         }
+
 
         
         , {
@@ -305,6 +339,7 @@ function getMyData() {
             , y3: 90
         }
 
+
         
         , {
             arg: 350
@@ -312,6 +347,7 @@ function getMyData() {
             , y2: 95
             , y3: 120
         }
+
 
         
         , {
@@ -321,6 +357,7 @@ function getMyData() {
             , y3: 32
         }
 
+
         
         , {
             arg: 367
@@ -328,6 +365,7 @@ function getMyData() {
             , y2: 30
             , y3: 12
         }
+
 
         
         , {
@@ -337,6 +375,7 @@ function getMyData() {
             , y3: 30
         }
 
+
         
         , {
             arg: 380
@@ -344,6 +383,7 @@ function getMyData() {
             , y2: 10
             , y3: 32
         }
+
 
         
         , {
@@ -353,6 +393,7 @@ function getMyData() {
             , y3: 12
         }
 
+
         
         , {
             arg: 400
@@ -360,6 +401,7 @@ function getMyData() {
             , y2: 20
             , y3: 30
         }
+
 
         
         , {
@@ -369,6 +411,7 @@ function getMyData() {
             , y3: 19
         }
 
+
         
         , {
             arg: 420
@@ -376,6 +419,7 @@ function getMyData() {
             , y2: 10
             , y3: 15
         }
+
 
         
         , {
@@ -385,6 +429,7 @@ function getMyData() {
             , y3: 15
         }
 
+
         
         , {
             arg: 440
@@ -392,6 +437,7 @@ function getMyData() {
             , y2: 100
             , y3: 13
         }
+
 
         
         , {
@@ -401,6 +447,7 @@ function getMyData() {
             , y3: 14
         }
 
+
         
         , {
             arg: 460
@@ -408,6 +455,7 @@ function getMyData() {
             , y2: 90
             , y3: 90
         }
+
 
         
         , {
@@ -417,6 +465,7 @@ function getMyData() {
             , y3: 120
         }
 
+
         
         , {
             arg: 480
@@ -424,6 +473,7 @@ function getMyData() {
             , y2: 10
             , y3: 32
         }
+
 
         
         , {
@@ -433,6 +483,7 @@ function getMyData() {
             , y3: 12
         }
 
+
         
         , {
             arg: 500
@@ -440,6 +491,7 @@ function getMyData() {
             , y2: 20
             , y3: 30
         }
+
 
         
         , {
@@ -449,6 +501,7 @@ function getMyData() {
             , y3: 32
         }
 
+
         
         , {
             arg: 520
@@ -456,6 +509,7 @@ function getMyData() {
             , y2: 30
             , y3: 12
         }
+
 
         
         , {
@@ -465,6 +519,7 @@ function getMyData() {
             , y3: 30
         }
 
+
         
         , {
             arg: 540
@@ -472,6 +527,7 @@ function getMyData() {
             , y2: 50
             , y3: 19
         }
+
 
         
         , {
@@ -481,6 +537,7 @@ function getMyData() {
             , y3: 15
         }
 
+
         
         , {
             arg: 555
@@ -488,6 +545,7 @@ function getMyData() {
             , y2: 10
             , y3: 15
         }
+
 
         
         , {
@@ -497,6 +555,7 @@ function getMyData() {
             , y3: 13
         }
 
+
         
         , {
             arg: 570
@@ -504,6 +563,7 @@ function getMyData() {
             , y2: 110
             , y3: 14
         }
+
 
         
         , {
@@ -513,6 +573,7 @@ function getMyData() {
             , y3: 90
         }
 
+
         
         , {
             arg: 590
@@ -520,6 +581,7 @@ function getMyData() {
             , y2: 95
             , y3: 12
         }
+
 
         
         , {
@@ -529,6 +591,7 @@ function getMyData() {
             , y3: 32
         }
 
+
         
         , {
             arg: 610
@@ -536,6 +599,7 @@ function getMyData() {
             , y2: 30
             , y3: 12
         }
+
 
         
         , {
@@ -545,6 +609,7 @@ function getMyData() {
             , y3: 30
         }
 
+
         
         , {
             arg: 630
@@ -552,6 +617,7 @@ function getMyData() {
             , y2: 10
             , y3: 32
         }
+
 
         
         , {
@@ -561,6 +627,7 @@ function getMyData() {
             , y3: 12
         }
 
+
         
         , {
             arg: 650
@@ -568,6 +635,7 @@ function getMyData() {
             , y2: 20
             , y3: 30
         }
+
 
         
         , {
@@ -577,6 +645,7 @@ function getMyData() {
             , y3: 19
         }
 
+
         
         , {
             arg: 670
@@ -584,6 +653,7 @@ function getMyData() {
             , y2: 10
             , y3: 15
         }
+
 
         
         , {
@@ -593,6 +663,7 @@ function getMyData() {
             , y3: 15
         }
 
+
         
         , {
             arg: 690
@@ -600,6 +671,7 @@ function getMyData() {
             , y2: 100
             , y3: 13
         }
+
 
         
         , {
@@ -609,6 +681,7 @@ function getMyData() {
             , y3: 14
         }
 
+
         
         , {
             arg: 710
@@ -616,6 +689,7 @@ function getMyData() {
             , y2: 90
             , y3: 90
         }
+
 
         
         , {
@@ -625,6 +699,7 @@ function getMyData() {
             , y3: 120
         }
 
+
         
         , {
             arg: 730
@@ -632,6 +707,7 @@ function getMyData() {
             , y2: 190
             , y3: 130
         }
+
 
         
         , {
@@ -641,6 +717,7 @@ function getMyData() {
             , y3: 12
         }
 
+
         
         , {
             arg: 750
@@ -648,6 +725,7 @@ function getMyData() {
             , y2: 20
             , y3: 30
         }
+
 
         
         , {
@@ -657,6 +735,7 @@ function getMyData() {
             , y3: 32
         }
 
+
         
         , {
             arg: 770
@@ -664,6 +743,7 @@ function getMyData() {
             , y2: 30
             , y3: 12
         }
+
 
         
         , {
@@ -673,6 +753,7 @@ function getMyData() {
             , y3: 30
         }
 
+
         
         , {
             arg: 790
@@ -680,6 +761,7 @@ function getMyData() {
             , y2: 50
             , y3: 19
         }
+
 
         
         , {
@@ -689,6 +771,7 @@ function getMyData() {
             , y3: 15
         }
 
+
         
         , {
             arg: 810
@@ -696,6 +779,7 @@ function getMyData() {
             , y2: 10
             , y3: 15
         }
+
 
         
         , {
@@ -705,6 +789,7 @@ function getMyData() {
             , y3: 13
         }
 
+
         
         , {
             arg: 830
@@ -712,6 +797,7 @@ function getMyData() {
             , y2: 110
             , y3: 14
         }
+
 
         
         , {
@@ -721,6 +807,7 @@ function getMyData() {
             , y3: 90
         }
 
+
         
         , {
             arg: 850
@@ -728,6 +815,7 @@ function getMyData() {
             , y2: 95
             , y3: 120
         }
+
 
         
         , {
@@ -737,6 +825,7 @@ function getMyData() {
             , y3: 32
         }
 
+
         
         , {
             arg: 870
@@ -744,6 +833,7 @@ function getMyData() {
             , y2: 30
             , y3: 12
         }
+
 
         
         , {
